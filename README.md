@@ -1,4 +1,16 @@
-# WordPress Docker Setup
+# WordPress Automation Setup (Playwright)
+
+## ✅ Prerequisites
+
+Please ensure the following are installed:
+
+* Visual Studio Code (or any IDE)
+* Docker
+* Node.js (v18 or above)
+
+---
+
+# 🐳 WordPress Docker Setup
 
 ## 📥 Clone this project
 
@@ -55,3 +67,40 @@ After installation, log in at:
 http://localhost:8080/wp-admin/
 
 Use the username and password you created.
+
+---
+
+# 📋 Task Scenario (Playwright Automation)
+
+Using Playwright, automate the following:
+
+---
+
+## ✅ Create Post
+
+1. Login to WordPress admin
+2. Navigate to **Posts → Add New**
+3. Create a new post:
+
+   * Title: `Test Automation Post`
+   * Content: `Created via automation`
+4. Publish the post
+
+### ✔️ Verify
+
+* “Post published” message is displayed
+* Post is visible on the frontend
+
+---
+
+## 🗑️ Delete Post
+
+1. Delete the created post
+
+### ✔️ Verify
+
+* “Post deleted” (or moved to trash) message
+* Post is NOT visible on the frontend
+
+---
+
