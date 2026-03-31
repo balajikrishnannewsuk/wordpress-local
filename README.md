@@ -7,6 +7,7 @@ Please ensure the following are installed:
 * Visual Studio Code (or any IDE)
 * Docker
 * Node.js (v18 or above)
+* Github access
 
 ---
 
